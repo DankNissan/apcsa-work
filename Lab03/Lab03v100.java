@@ -9,12 +9,16 @@ public class Lab03v100
     public static void main(String[] args)
     {
       System.out.println("Lab03, 100 Point Version\n");
+      
+      // Calculates durations
       int initial = 10000000;
       int hours = initial / 3600000;
       int seconds = initial % 3600000;
       int minutes = seconds / 60000;
       seconds = seconds % 60000;
       int milliseconds = seconds / 1000;
+      
+      // Prints results
       System.out.println("Starting milliseconds:   " + initial);
       System.out.println("Hours:                   " + hours);
       System.out.println("Minutes:                 " + minutes);
