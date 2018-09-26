@@ -25,13 +25,11 @@ public class Lab04bv110 extends Applet
         g.drawOval(120,200,200, 40);
         
         //Draw INSCRIBED/CIRCUMSCRIBED TRIANGLE
-        g.drawOval(500,100,100,100);
-        g.drawLine(500,100,700,100);
-        g.drawLine(500,100,500,250);
-        g.drawLine(500,250,700,100);
-        g.drawLine(500,150,600,150);
-        g.drawLine(500,150,550,100);
-        g.drawLine(600,150,550,100);
+        g.drawOval(500,100,200,200);
+        g.drawLine(500,200,600,300);
+        g.drawLine(500,200,650,116);
+        g.drawLine(650,116,600,300);
+        g.drawOval(530,165, 92, 92);
         
         //Draw APCSA
         g.fillRect(100,400, 60,100);
