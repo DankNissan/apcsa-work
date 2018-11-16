@@ -4,6 +4,4 @@ comment1.params=g
 comment1.target=void\ drawHeader(java.awt.Graphics)
 comment2.params=g
 comment2.target=void\ drawGround(java.awt.Graphics)
-comment3.params=g
-comment3.target=void\ third(java.awt.Graphics)
-numComments=4
+numComments=3

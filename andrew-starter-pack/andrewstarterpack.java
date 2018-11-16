@@ -18,16 +18,19 @@ public class andrewstarterpack extends Applet
         minion = getImage(getDocumentBase(), "minion.png");
         
     }
+    public void drawImages(Graphics g) {
+        g.drawImage(pete, 100, 100, this);
+        g.drawImage(shoes, 90, 500, this);
+        g.drawImage(minion, 350, 100, this);
+    }
     public void paint(Graphics g)
     {
         Drawings.drawHeader(g);
         Drawings.drawGround(g);
+        drawImages(g);
         Text.drawTitle(g);
         Text.peteLabel(g);
         Text.af1Label(g);
         Text.basketballLabel(g);
-        g.drawImage(pete, 100, 100, this);
-        g.drawImage(shoes, 90, 500, this);
-        g.drawImage(minion, 350, 100, this);
     }
 }
