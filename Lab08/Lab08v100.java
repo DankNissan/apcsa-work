@@ -37,12 +37,17 @@ class Palindrome
      */
     public static boolean isPal(String s)
     {
+        if (s.equals(""))
+            return false;
         String compare = "";
         String pal = s.toLowerCase();
         int length = pal.length();
         int i;
-        for (i = 0; i < length; i++)
+        for (i = 0; i < length; i++) {
+            if (!(isLetter(pal.substring(length - i - 1, length - i))))
+                return false;
             compare = compare + pal.substring(length - i - 1, length - i);
+        }
         if (compare.equals(pal))
             return true;
         return false;
@@ -92,6 +97,8 @@ class Palindrome
         String compare = "";
         String purged = purge(s);
         String temp = purged;
+        if (temp.equals(""))
+            return false;
         int length = purged.length();
         int i;
         for (i = 0; i < length; i++)
