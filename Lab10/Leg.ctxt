@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Leg
+comment1.params=side
+comment1.target=Leg(java.lang.String)
+comment2.params=g\ x\ y
+comment2.target=void\ draw(java.awt.Graphics,\ int,\ int)
+numComments=3
