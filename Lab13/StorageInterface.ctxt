@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=StorageInterface
+comment1.params=
+comment1.target=void\ open()
+comment2.params=
+comment2.target=void\ close()
+comment3.params=thing
+comment3.target=void\ store(java.lang.Object)
+comment4.params=
+comment4.target=java.lang.String\ dump()
+numComments=5

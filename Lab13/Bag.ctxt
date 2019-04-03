@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bag
+comment1.params=thing
+comment1.target=void\ store(java.lang.Object)
+comment2.params=
+comment2.target=java.lang.String\ dump()
+numComments=3
